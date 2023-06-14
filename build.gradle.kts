@@ -29,6 +29,8 @@ dependencies {
     implementation("ch.qos.logback:logback-classic:$logback_version")
     implementation("io.ktor:ktor-server-websockets:$ktor_version")
     implementation("io.ktor:ktor-server-websockets-jvm:2.3.1")
+    implementation("io.ktor:ktor-server-resources:$ktor_version")
+    implementation("io.ktor:ktor-server-html-builder:$ktor_version")
     testImplementation("io.ktor:ktor-server-tests-jvm:$ktor_version")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit:$kotlin_version")
 }
