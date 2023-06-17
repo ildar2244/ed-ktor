@@ -31,6 +31,9 @@ dependencies {
     implementation("io.ktor:ktor-server-websockets-jvm:2.3.1")
     implementation("io.ktor:ktor-server-resources:$ktor_version")
     implementation("io.ktor:ktor-server-html-builder:$ktor_version")
+    implementation("io.ktor:ktor-server-rate-limit:$ktor_version")
+    implementation("io.ktor:ktor-server-host-common-jvm:2.3.1")
+    implementation("io.ktor:ktor-server-status-pages-jvm:2.3.1")
     testImplementation("io.ktor:ktor-server-tests-jvm:$ktor_version")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit:$kotlin_version")
 }

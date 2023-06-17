@@ -1,5 +1,6 @@
 package com.example
 
+import com.example.lessons.edRequestsRateLimit
 import io.ktor.server.application.*
 import com.example.plugins.*
 import com.example.routes.configureArticles
@@ -13,4 +14,5 @@ fun Application.module() {
     configureRouting()
     configureSockets()
     configureArticles()
+    edRequestsRateLimit()
 }
